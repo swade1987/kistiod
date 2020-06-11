@@ -1,4 +1,4 @@
-# kistiod
+# kistiod (Istio in KinD)
 
 A repository for running [Istio](https://istio.io/) in [KinD](https://kind.sigs.k8s.io/)
 
