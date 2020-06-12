@@ -8,17 +8,15 @@ A list of pre-requisites can be found [here](docs/pre-reqs.md).
 
 ## Setup
 
-1. To configure this to work with your repository first read the steps [here](docs/configuration.md).
+1. Create a cluster using `make cluster`
 
-2. Create a cluster using `make cluster`
-
-3. **Make sure you export your new kubeconfig (use the command below)**
+2. **Make sure you export your new kubeconfig (use the command below)**
    
    ```
    export KUBECONFIG=~/.kube/kind-poc-istio
    ```
 
-4. Install the [Istio Operator](https://github.com/istio/istio/tree/master/operator) using `make install-flux`
+3. Install the [Istio Operator](https://github.com/istio/istio/tree/master/operator) using `make install-istio`
 
 ## Upgrading Istio
 
