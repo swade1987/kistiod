@@ -1,5 +1,5 @@
 SHELL = /bin/sh
-ISTIO_VERSION := 1.6.7
+ISTIO_VERSION := 1.7.0
 
 cluster:
 	kind create cluster \
